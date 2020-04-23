@@ -22,8 +22,7 @@ hexo server -d
 ## 发布
 
 ```bash
-# 构建生产环境
-npm run build:prod
+编辑完毕后，就可以点击Deploy，直接部署发布Github博客上。
 ```
 
 Copyright (c) 2017-present zhaoYu
