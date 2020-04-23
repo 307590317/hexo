@@ -1,6 +1,6 @@
 ---
 title: 2、CSS与JS引入方式
-categories: 浏览器内核与引入方式
+categories: 浏览器内核
 toc: true
 ---
 

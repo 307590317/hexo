@@ -26,7 +26,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhaoyu.fun
+url: http://www.zhaoyu.fun
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -92,7 +92,4 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:307590317/307590317.github.io.git
-
-admin:
-  deployCommand: 'hexo-pubish.bat'
+  repo: https://github.com/307590317/307590317.github.io.git

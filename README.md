@@ -14,15 +14,23 @@ npm install
 npm install --registry=https://registry.npm.taobao.org
 
 # 启动服务
-hexo server -d
+npm start
+
 ```
 
-浏览器访问 http://localhost:4000/admin/
+浏览器访问 http://localhost:4000/
 
 ## 发布
 
 ```bash
-编辑完毕后，就可以点击Deploy，直接部署发布Github博客上。
+
+# 清除缓存
+npm run clear
+
+# 打包部署
+npm run build
+
 ```
+打包之前需要先清除缓存
 
 Copyright (c) 2017-present zhaoYu
